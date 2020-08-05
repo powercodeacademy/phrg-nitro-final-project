@@ -14,23 +14,39 @@ For the most part, Nitro uses the newest tools, libraries, and technologies out 
 
 There may be 3 different ways to accomplish a goal in Nitro. To decipher which coding approach may be the best to mimic, you have to ask. Lean on you instructor, TAs, and your team when the best way to make an addition is not clear.
 
-One such example is functional components versus class components in React. Both exist in Nitro, but functional components are now the better and official way to write React (in Nitro and the React community).
+One such example is functional components versus class components in React. Both exist in Nitro, but functional components are now the better and official way to write React (in both Nitro and React communities).
 
-## Requirements
+## General Requirements
 
-TODO: Instructions about getting Tier 1 query from instructor. Also, whatever instructions are need about general placement of code. Is there a branch they should branch off of? Will this go into DevDocs? Should DevDocs be modified before this is started?
+As mentioned, your final project will not be a standalone codebase. Instead, it will be a Pull Request (PR) opened up against the `nitro-web` repository. Your PR should follow all best PR conventions:
 
-### For all tiers
+### Github Pull Request Requirements
+
+- Accurate PR title
+- Correct team label as well as correct use of WIP label
+- Detailed PR summary that includes:
+1. Detailed complete sentences and paragraphs explaining your additions
+1. Multiple screenshots of your additions (displaying all different states of use)
+
+Each tier of the project has different demands. However, there are some universal requirements that apply throughout all tiers (and all developmetn work you do ever do in Nitro).
+
+### Requirements for all tiers
 
 - All React code must strictly adhere to ESLint and Flow Nitro JS conventions
-- All Ruby code must strictly adhere to rubocop conventions
-- Commit in small, logical chunks. There must be a commit level division between each tier.
+- All Ruby code must strictly adhere to Rubocop linting conventions
+- All of you code must not break any automated tests (`rspec` and `mocha`)
+- There must be a commit level division between each tier
+- Commits should be small and logical changesets. Read [this article](https://chris.beams.io/posts/git-commit/) about best practices with commits and apply its seven rules to all of your Nitro commits.
+
+## Tier Requirements
+
+So what is the project actually going to be about? Check out the Tier technical requirements below.
 
 ### Tier 1 (React & GraphQL)
 
-- Create a new index or show view in React
+- Create a new index or show view in React of a Nitro resource
 - The new view must use at least 3 Playbook kits
-- The new view must load its initial content via a GraphQL query
+- The new view must load its initial content via a GraphQL query (choosen from list provided by instructor)
 
 ### Tier 2 (React)
 
@@ -50,6 +66,10 @@ TODO: Instructions about getting Tier 1 query from instructor. Also, whatever in
 - Add appropriate backend tests for your GraphQL additions
 - Add appropriate frontend tests for your React additions
 
+## Setup
+
+TODO: Choosing query from instructor list. Instructions on where in `nitro-web` to add functionality.
+
 ## Project Code Reviews
 
-Instead of a one hour pairing session, you will have an interactive code review session with a PCA Evaluator. After your session is complete, you are tasked with completing all hte suggested upgrades by your code reviewer. This project is only complete once you have acquired a green code approval from your reviewer.
+Instead of a one hour pairing session, you will have an interactive code review session with a PCA Evaluator. After your session is complete, you are tasked with completing all the suggested upgrades by your code reviewer. This project is only complete once you have acquired a green code approval from your reviewer.
