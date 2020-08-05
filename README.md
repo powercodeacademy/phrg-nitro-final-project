@@ -40,8 +40,6 @@ Each tier of the project has different demands. However, there are some universa
 
 ## Tier Requirements
 
-So what is the project actually going to be about? Check out the Tier technical requirements below.
-
 ### Tier 1 (React & GraphQL)
 
 - Create a new index or show view in React of a Nitro resource
