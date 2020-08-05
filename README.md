@@ -36,7 +36,7 @@ Each tier of the project has different demands. However, there are some universa
 - All Ruby code must strictly adhere to Rubocop linting conventions
 - All of you code must not break any automated tests (`rspec` and `mocha`)
 - There must be a commit level division between each tier
-- Commits should be small and logical changesets. Read [this article](https://chris.beams.io/posts/git-commit/) about best practices with commits and apply its seven rules to all of your Nitro commits.
+- Commits should be small and logical changesets. Read [this article](https://chris.beams.io/posts/git-commit/) about best practices with commits and apply its [seven rules](https://chris.beams.io/posts/git-commit/#seven-rules) to all of your Nitro commits.
 
 ## Tier Requirements
 
@@ -66,7 +66,9 @@ Each tier of the project has different demands. However, there are some universa
 
 ## Setup
 
-TODO: Choosing query from instructor list. Instructions on where in `nitro-web` to add functionality.
+Before you start, you first must know what GraphQL Query / Nitro resource you will use for `Tier 1`. Coordinate with the instructor in choosing a query from the list of available options.
+
+Once you have your designated query, get Nitro up and running locally. Navigate to `http://localhost:3000/dev_docs/pca_final_projects`. This page renders a React component that you will replace with your project. It can be found in the `dev_docs` component in `nitro-web`.
 
 ## Project Code Reviews
 
