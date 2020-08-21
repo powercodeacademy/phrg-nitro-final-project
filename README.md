@@ -25,51 +25,51 @@ As mentioned, your final project will not be a standalone codebase. Instead, it 
 - Accurate PR title
 - Correct team label as well as correct use of WIP label
 - Detailed PR summary that includes:
-1. Detailed complete sentences and paragraphs explaining your additions
-1. Multiple screenshots of your additions (displaying all different states of use)
+1. Complete sentences and paragraphs explaining your additions
+1. Screenshots of all your additions
 
-Each tier of the project has different demands. However, there are some universal requirements that apply throughout all tiers (and all developmetn work you do ever do in Nitro).
+Each tier of the project has different demands. However, there are some universal requirements that apply throughout all tiers (and all development work you do in Nitro).
 
 ### Requirements for all tiers
 
 - All React code must strictly adhere to ESLint and Flow Nitro JS conventions
 - All Ruby code must strictly adhere to Rubocop linting conventions
 - All of you code must not break any automated tests (`rspec` and `mocha`)
-- There must be a commit level division between each tier
 - Commits should be small and logical changesets. Read [this article](https://chris.beams.io/posts/git-commit/) about best practices with commits and apply its [seven rules](https://chris.beams.io/posts/git-commit/#seven-rules) to all of your Nitro commits.
+- There must be a commit level divisions between each tier
 
 ## Tier Requirements
 
 ### Tier 1 (React & GraphQL)
 
-- Create a new index or show view in React of a Nitro resource
-- The new view must use at least 3 Playbook kits
-- The new view must load its initial content via a GraphQL query (choosen from list provided by instructor)
+- Create a new index/show view in React
+- View must use at least 3 Playbook kits
+- View must load its initial content via a GraphQL query (choosen from list provided by instructor)
 
 ### Tier 2 (React)
 
 - Create a second view that displays a "new" form using Formik
-- This view must use at least 3 Playbook kits
-- The form should present an existing Nitro resource with a selectable relationship to another object. The form must have 5 inputs at minimum. Check off your Nitro resource with your instructor before proceeding.
+- View must use at least 3 Playbook kits
+- Form must present an existing Nitro resource with a selectable relationship to another object. The form must have 5 inputs at minimum. Check off your Nitro resource with your instructor before starting this tier.
 
 ### Tier 3 (Ruby & GraphQL & React)
 
-- Write the backend GraphQL Query logic needed to retrieve (query) your Nitro resource
+- Write the BE GraphQL Query logic needed to retrieve your Nitro resource
 - Rework the form into an "edit" that first loads the resource via GraphQL
 
 ### Tier 4 (Ruby & GraphQL & React)
 
 - Write the backend GraphQL Query logic needed to update (mutate) your Nitro resource
-- Rework the form to successfully submit and update
+- Rework React form to successfully submit and update
 - Add appropriate backend tests for your GraphQL additions
 - Add appropriate frontend tests for your React additions
 
 ## Setup
 
-Before you start, you first must know what GraphQL Query / Nitro resource you will use for `Tier 1`. Coordinate with the instructor in choosing a query from the list of available options.
+Before you start, you must first identify what GraphQL Query / Nitro resource you will use for `Tier 1`. Coordinate with the instructor for your designated query from the list of available options.
 
 Once you have your designated query, get Nitro up and running locally. Navigate to `http://localhost:3000/dev_docs/pca_final_projects`. This page renders a React component that you will replace with your project. It can be found in the `dev_docs` component in `nitro-web`.
 
 ## Project Code Reviews
 
-Instead of a one hour pairing session, you will have an interactive code review session with a PCA Evaluator. After your session is complete, you are tasked with completing all the suggested upgrades by your code reviewer. This project is only complete once you have acquired a green code approval from your reviewer.
+Instead of a one hour pairing session, you will have an interactive code review session with a PCA Evaluator. After your session is complete, you are tasked with completing all the requested changes offered by your code reviewer. This project is complete once you have acquired a green code approval from your reviewer.
