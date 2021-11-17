@@ -32,7 +32,7 @@ Each tier of the project has different demands. However, there are some universa
 
 ### Requirements for all tiers
 
-- All React code must strictly adhere to ESLint and Flow Nitro JS conventions
+- All React code must strictly adhere to ESLint conventions
 - All Ruby code must strictly adhere to Rubocop linting conventions
 - All of you code must not break any automated tests (`rspec` and `mocha`)
 - Commits should be small and logical changesets. Read [this article](https://chris.beams.io/posts/git-commit/) about best practices with commits and apply its [seven rules](https://chris.beams.io/posts/git-commit/#seven-rules) to all of your Nitro commits.
@@ -44,13 +44,13 @@ Each tier of the project has different demands. However, there are some universa
 
 - Create a new index/show view in React
 - View must use at least 3 Playbook kits
-- View must load its initial content via a GraphQL query (choosen from list provided by instructor)
+- View must load its initial content via a GraphQL query
 
 ### Tier 2 (React)
 
-- Create a second view that displays a "new" form using Formik
+- Create a second view that displays a "new" form using [react-hook-form](https://react-hook-form.com/)
 - View must use at least 3 Playbook kits
-- Form must present an existing Nitro resource with a selectable relationship to another object. The form must have 5 inputs at minimum. Check off your Nitro resource with your instructor before starting this tier.
+- Form must present an existing Nitro resource with a selectable relationship to another object. The form must have 5 inputs at minimum. Check off your Nitro resource with an instructor before starting this tier.
 
 ### Tier 3 (Ruby & GraphQL & React)
 
