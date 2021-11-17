@@ -70,6 +70,9 @@ Before you start, you must first identify what GraphQL Query / Nitro resource yo
 
 Once you have your designated query, get Nitro up and running locally. Navigate to `http://localhost:3000/dev_docs/pca_final_projects`. This page renders a React component that you will replace with your project. It can be found in the `dev_docs` component in `nitro-web`.
 
+Note you will have to get the project app set up by adding it to webpacker. In `app/javascript/packs/dev_docs.js` after line 7, add `PcaProjectApp: hot(module)(PcaProjectApp)`, and make sure to include `PcaProjectApp` in the list of imports on line 3. 
+
+
 ## Project Code Reviews
 
 Instead of a one hour pairing session, you will have an interactive code review session with a PCA Evaluator. After your session is complete, you are tasked with completing all the requested changes offered by your code reviewer. This project is complete once you have acquired a green code approval from your reviewer.
