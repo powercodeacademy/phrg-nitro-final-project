@@ -48,7 +48,7 @@ Each tier of the project has different demands. However, there are some universa
 
 ### Tier 2 (React)
 
-- Create a second view that displays a "new" form using [react-hook-form](https://react-hook-form.com/)
+- Create a second view that displays a "new" form using [react-hook-form](https://react-hook-form.com/) ([this](https://www.freecodecamp.org/news/build-forms-in-react-with-react-hook-form-library/) is a good tutorial!)
 - View must use at least 3 Playbook kits
 - Form must present an existing Nitro resource with a selectable relationship to another object. The form must have 5 inputs at minimum. Check off your Nitro resource with an instructor before starting this tier.
 
