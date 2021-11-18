@@ -23,7 +23,7 @@ As mentioned, your final project will not be a standalone codebase. Instead, it 
 ### Github Pull Request Requirements
 
 - Accurate PR title
-- Correct team label as well as correct use of WIP label
+- Correct team label as well as correct use of WIP label (xavier, WIP)
 - Detailed PR summary that includes:
 1. Complete sentences and paragraphs explaining your additions
 1. Screenshots of all your additions
@@ -42,7 +42,7 @@ Each tier of the project has different demands. However, there are some universa
 
 ### Tier 1 (React & GraphQL)
 
-- Create a new index/show view in React
+- Create a new index OR show view in React
 - View must use at least 3 Playbook kits
 - View must load its initial content via a GraphQL query
 
